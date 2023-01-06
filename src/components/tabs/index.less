@@ -1,0 +1,85 @@
+.tabs {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  .unit {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 22px;
+    font-weight: normal;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  :global {
+    .ant-tabs-tab {
+      padding-bottom: 0;
+    }
+    .ant-tabs-tab:nth-child(1) {
+      margin-left: 0 !important;
+    }
+    .ant-tabs-tab-btn {
+      padding: 0 0 15px 0;
+      color: #fff;
+      font-weight: 400;
+      font-size: 38px;
+      font-family: pingFangLight;
+      line-height: 70px;
+      opacity: 0.45;
+    }
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+      color: #fff;
+      font-weight: bold;
+      font-size: 38px;
+      font-family: pingFangRegular;
+      opacity: 1;
+      // line-height: 70px;
+    }
+    .ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar,
+    .ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar {
+      width: 160px !important;
+      // bottom: 16px;
+      height: 3px;
+      background: radial-gradient(circle, #1992f2, rgba(25, 147, 243, 0));
+    }
+    .ant-tabs-top > .ant-tabs-nav::before,
+    .ant-tabs-bottom > .ant-tabs-nav::before,
+    .ant-tabs-top > div > .ant-tabs-nav::before,
+    .ant-tabs-bottom > div > .ant-tabs-nav::before {
+      height: 3px;
+      background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+      border: none;
+      opacity: 0.3;
+    }
+  }
+}
+.borderTabs {
+  :global {
+    .ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar,
+    .ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar {
+      display: none;
+    }
+    .ant-tabs-tab-btn {
+      padding: 0 27px;
+      font-size: 30px;
+      line-height: 49px;
+      height: 51px;
+      border: 2px solid rgba(0, 0, 0, 0);
+      font-family: pingFangLight;
+    }
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+      background: #282842;
+      border: 2px solid #7f7f8e;
+      border-radius: 4px 4px 4px 4px;
+      padding: 0 27px;
+      font-size: 30px;
+      line-height: 49px;
+      height: 51px;
+      font-family: pingFangRegular;
+    }
+    .ant-tabs-tab {
+      padding: 0;
+      padding-bottom: 0;
+    }
+  }
+}

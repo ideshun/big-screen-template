@@ -1,0 +1,30 @@
+.tabsBox {
+  display: flex;
+}
+.tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  .tabItem {
+    padding: 0 25px;
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 30px;
+    line-height: 51px;
+    white-space: nowrap;
+    text-align: center;
+    border: 2px solid transparent;
+    font-family: pingFangLight;
+    cursor: pointer;
+    opacity: 0.45;
+  }
+  .active {
+    color: #fff;
+    background: #282842;
+    border-color: #7f7f8e;
+    border-radius: 4px;
+    font-family: pingFangRegular;
+    opacity: 1;
+  }
+}

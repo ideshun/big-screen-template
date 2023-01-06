@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 2px;
+  :global {
+    .ant-picker {
+      width: 150px;
+      height: 58px;
+      background-color: rgba(61, 68, 102, 1);
+      font-size: 24px;
+      color: rgba(255, 255, 255, 1);
+      .ant-picker-input {
+        input {
+          color: white;
+        }
+      }
+    }
+  }
+}
+.pickerName {
+  :global {
+    .ant-picker-panel-container {
+      width: 600px;
+      height: 700px;
+      .ant-picker-date-panel,
+      .ant-picker-month-panel,
+      .ant-picker-year-panel {
+        width: 600px;
+        height: 650px;
+        .ant-picker-header {
+          height: 60px;
+          font-size: 24px;
+          .ant-picker-header-view {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+        .ant-picker-body {
+          height: 600px;
+          .ant-picker-content {
+            font-size: 24px;
+            height: 100%;
+            width: 100%;
+            thead {
+              tr > th {
+                height: 40px;
+                font-size: 30px;
+              }
+            }
+            tbody {
+              tr > td {
+                font-size: 30px;
+                .ant-picker-cell-inner {
+                  height: 50px;
+                  line-height: 50px;
+                  text-align: center;
+                }
+              }
+            }
+          }
+        }
+      }
+      .ant-picker-month-panel,
+      .ant-picker-year-panel {
+        .ant-picker-body {
+          .ant-picker-content {
+            tbody {
+              tr > td {
+                .ant-picker-cell-inner {
+                  width: 120px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .ant-picker-date-panel {
+        .ant-picker-body {
+          .ant-picker-content {
+            tbody {
+              tr > td {
+                .ant-picker-cell-inner {
+                  width: 60px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .ant-picker-footer {
+        height: 50px;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

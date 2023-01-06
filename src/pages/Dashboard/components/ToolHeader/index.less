@@ -1,0 +1,150 @@
+.toolContainer {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  right: 220px;
+  color: #bebfc1;
+  text-align: center;
+
+  .toolDate {
+    margin: 0 20px;
+    font-size: 28px;
+  }
+
+  .toolTime {
+    padding: 0 10px;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+  }
+
+  :global {
+    .ant-radio-button-wrapper {
+      color: rgba(255, 255, 255, 0.45);
+      border: none;
+      background: rgba(64, 85, 128, 0.1);
+      font-size: 20px;
+    }
+
+    .ant-radio-button-wrapper:not(:first-child)::before {
+      width: 0;
+    }
+
+    .ant-radio-button-checked {
+      background: rgba(4, 31, 51, 0.35);
+      font-size: 22px;
+    }
+  }
+}
+
+.playButton {
+  margin-right: 20px;
+}
+
+.datePickerBox,
+.changeDate {
+  position: absolute;
+  right: 50px;
+  width: 150px;
+  height: 58px;
+  background-color: rgba(61, 68, 102, 1);
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.changeDate {
+  right: 0;
+}
+// .datePickerBox {
+//   :global {
+//     .ant-picker-input {
+//       input {
+//         color: white;
+//       }
+//     }
+//   }
+// }
+// .pickerName {
+//   :global {
+//     .ant-picker-panel-container {
+//       width: 600px;
+//       height: 700px;
+//       .ant-picker-date-panel,.ant-picker-month-panel,.ant-picker-year-panel {
+//         width: 600px;
+//         height: 650px;
+//         .ant-picker-header {
+//           height: 60px;
+//           font-size: 24px;
+//           .ant-picker-header-view {
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//           }
+//         }
+//         .ant-picker-body {
+//           height: 600px;
+//           .ant-picker-content {
+//             font-size: 24px;
+//             height: 100%;
+//             width: 100%;
+//             thead {
+//               tr > th {
+//                 height: 40px;
+//                 font-size: 30px;
+//               }
+//             }
+//             tbody {
+//               tr > td {
+//                 font-size: 30px;
+//                 .ant-picker-cell-inner{
+//                   height: 50px;
+//                   line-height: 50px;
+//                   text-align: center;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .ant-picker-month-panel,.ant-picker-year-panel{
+//         .ant-picker-body{
+//           .ant-picker-content {
+//             tbody {
+//               tr > td {
+//                 .ant-picker-cell-inner{
+//                   width: 120px;
+//                 }
+//               }
+//             }
+//           }
+//         }
+
+//       }
+//       .ant-picker-date-panel{
+//         .ant-picker-body{
+//           .ant-picker-content {
+//             tbody {
+//               tr > td {
+//                 .ant-picker-cell-inner{
+//                   width: 60px;
+//                 }
+//               }
+//             }
+//           }
+//         }
+
+//       }
+//       .ant-picker-footer {
+//         height: 50px;
+//         font-size: 24px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//       }
+//     }
+//   }
+// }

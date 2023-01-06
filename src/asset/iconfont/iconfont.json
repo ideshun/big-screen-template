@@ -1,0 +1,107 @@
+{
+  "id": "3129150",
+  "name": "经济活动分析监控大屏",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "586755",
+      "name": "arrow-reduce",
+      "font_class": "arrowreduce",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "586764",
+      "name": "arrow-rise",
+      "font_class": "arrowrise",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "24648630",
+      "name": "湿度",
+      "font_class": "shidu",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "24952535",
+      "name": "晴天",
+      "font_class": "icon_qingtian",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "24952611",
+      "name": "阴天",
+      "font_class": "icon_yintian",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "24952614",
+      "name": "多云",
+      "font_class": "icon_duoyun",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "24952626",
+      "name": "阵雨",
+      "font_class": "icon_zhenyu",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "24952633",
+      "name": "小雨",
+      "font_class": "icon_xiaoyu",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "24952668",
+      "name": "雷阵雨",
+      "font_class": "icon_leizhenyu",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "24952674",
+      "name": "中雪",
+      "font_class": "icon_zhongxue",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "24952708",
+      "name": "雾",
+      "font_class": "icon_wu",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "24953324",
+      "name": "沙尘暴",
+      "font_class": "icon_shachenbao",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "1718355",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1718358",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}
